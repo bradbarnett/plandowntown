@@ -445,3 +445,8 @@ section#one h2, section#two h2 {
 }
 
 
+.icon.alt:before {
+    color: #1c1d26 !important;
+    text-shadow: none;
+}
+
