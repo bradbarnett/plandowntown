@@ -97,6 +97,7 @@ header h1 {
     font-size: 2.5em;
     font-weight: 600;
     margin-bottom: 1em;
+    text-transform: uppercase;
 }
 
 header p {
@@ -350,8 +351,8 @@ footer#footer {
 
 h3#logo {
     float: left;
-    margin-top: 3.5vh;
-    padding-left: 5px;
+    margin-top: 2vh;
+    padding-left: 10px;
 }
 
 .logo {
