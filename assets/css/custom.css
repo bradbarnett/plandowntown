@@ -71,14 +71,14 @@ body.landing #header,#header {
 
 html, body {
     background-color: rgb(237, 237, 237);
-    color: rgb(50,50,50);
+    color: #424242;
     font-size: 14px;
     font-weight: 300;
 }
 
 
 h1, h2, h3, h4, h5, h6 {
-    color: rgb(0,0,0);
+    color: #424242;
     font-weight: 400;
     line-height: 1.2em;
     margin: 0 0 0.25em 0;
@@ -87,6 +87,10 @@ h1, h2, h3, h4, h5, h6 {
 
 h2 {
     margin-bottom: 1em;
+    font-size: 2.5em;
+    font-weight: 600;
+    letter-spacing: 3px;
+    text-transform: uppercase;
 }
 
 header h1 {
@@ -351,23 +355,23 @@ h3#logo {
 }
 
 .logo {
-    height: 100px;
+    height: 125px;
 
 }
 
 .logo img.lower {
-    max-width: 125px;
-    max-height: 100px;
+    max-width: 150px;
+    max-height: 120px;
     position: relative;
     top: 70%;
     transform: translateY(-50%);
 }
 
 .logo img {
-    max-width: 125px;
-    max-height: 100px;
+    max-width: 150px;
+    max-height: 120px;
     position: relative;
-    top: 40%;
+    top: 50%;
     transform: translateY(-50%);
 }
 
@@ -383,12 +387,16 @@ h3#logo {
 
 }
 
-.sponsor-desc h4 {
+.sponsor-desc h5 {
     margin-bottom: 0.2em;
     margin-top: 0.5em;
     text-align: left;
+    font-weight: 500;
 }
 
+.sponsor-desc h5 a {
+    border-bottom: 1px dotted;
+}
 
 .logo-container {
     display: inline-block;
@@ -396,6 +404,7 @@ h3#logo {
     vertical-align: top;
     /*width: 150px;*/
     margin-bottom: 5vh;
+    width: 33%;
 }
 
 .full-height {
@@ -418,7 +427,6 @@ ul.sidebar * {
 }
 
 #header nav ul li a, #header nav ul li span {
-
     font-weight: 400;
 }
 
@@ -427,6 +435,13 @@ section#two {
     background-color: #e2e2e2;
 }
 
-section#two h2 {
+section#one h2, section#two h2 {
     padding-top:10vh;
+    padding-bottom: 2vh;
 }
+
+#sponsor-logos-container {
+    margin-top: -5vh;
+}
+
+
