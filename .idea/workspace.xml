@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="631235aa-e56f-477d-af52-6f6d33471218" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/participate.html" afterPath="$PROJECT_DIR$/participate.html" />
-    </list>
+    <list default="true" id="631235aa-e56f-477d-af52-6f6d33471218" name="Default" comment="" />
     <ignored path="plandowntown.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -353,12 +351,12 @@
       <updated>1487352416172</updated>
       <workItem from="1487352418899" duration="23046000" />
       <workItem from="978307779109" duration="21706000" />
-      <workItem from="1487779565100" duration="19749000" />
+      <workItem from="1487779565100" duration="20311000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64501000" />
+    <option name="totallyTimeSpent" value="65063000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="6" />
