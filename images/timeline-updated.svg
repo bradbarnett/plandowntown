@@ -21,11 +21,11 @@
 <circle onclick="#svg-five" fill="#E2E2E2" stroke="#FDBA13" stroke-width="3" stroke-miterlimit="10" cx="199" cy="194.918" r="21"/>
 <text transform="matrix(1 0 0 1 9.3218 345.7881)" fill="#424242" font-family="'Roboto-Bold'" font-size="18">Late Summer 2017</text>
 <rect x="237" y="371.35" fill="none" width="245" height="21"/>
-<text transform="matrix(1 0 0 1 237 345.7871)" fill="#424242" font-family="'Roboto-Bold'" font-size="18">Draft Proposal</text>
+<text transform="matrix(1 0 0 1 237 345.7871)" fill="#424242" font-family="'Roboto-Bold'" font-size="18">Draft Plan</text>
 <circle onclick="#svg-six" fill="#E2E2E2" stroke="#F18585" stroke-width="3" stroke-miterlimit="10" cx="199" cy="345.684" r="21"/>
 <text transform="matrix(1 0 0 1 87.8008 484.3535)" fill="#424242" font-family="'Roboto-Bold'" font-size="18">Fall 2017</text>
 <rect x="237" y="474.75" fill="none" width="150" height="21"/>
-<text transform="matrix(1 0 0 1 237 484.3535)" fill="#424242" font-family="'Roboto-Bold'" font-size="18">Final Report</text>
+<text transform="matrix(1 0 0 1 237 484.3535)" fill="#424242" font-family="'Roboto-Bold'" font-size="18">Plan Launch</text>
 <rect x="237" y="-22.75" fill="none" width="173" height="108"/>
 <rect x="237" y="78.55" fill="none" width="173" height="108"/>
 <rect x="237" y="183.85" fill="none" width="173" height="108"/>
@@ -44,7 +44,7 @@
 <text transform="matrix(1 0 0 1 237 393.6152)" fill="#424242" font-family="'Roboto-Regular'" font-size="13">that will ensure the future we </text>
 <text transform="matrix(1 0 0 1 237 408.0156)" fill="#424242" font-family="'Roboto-Regular'" font-size="13">want?  </text>
 <rect x="237" y="490.75" fill="none" width="173" height="108"/>
-<text transform="matrix(1 0 0 1 237 502.9824)" fill="#424242" font-family="'Roboto-Regular'" font-size="13">The final report will include the </text>
+<text transform="matrix(1 0 0 1 237 502.9824)" fill="#424242" font-family="'Roboto-Regular'" font-size="13">The final plan will include the </text>
 <text transform="matrix(1 0 0 1 237 517.3818)" fill="#424242" font-family="'Roboto-Regular'" font-size="13">design proposal as well as next </text>
 <text transform="matrix(1 0 0 1 237 531.7812)" fill="#424242" font-family="'Roboto-Regular'" font-size="13">steps for implementation.</text>
 <rect x="237" y="490.75" fill="none" width="173" height="108"/>

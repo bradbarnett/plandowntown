@@ -33,3 +33,10 @@
 //     }
 //     _prevID = circleID;
 // })
+
+
+$(document).ready(function()
+    {
+        $("#myTable").tablesorter();
+    }
+); 
