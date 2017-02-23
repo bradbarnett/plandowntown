@@ -26,10 +26,16 @@ p {
 a, h4 a {
     color: #0289D1;
     border-bottom: dotted 1px;
+    transition: all 0.25s;
 }
 
 a:hover, h4 a {
-    color: #016297 !important;
+    color: #0289D1 !important;
+}
+
+#header nav ul li:last-of-type {
+    display: inline-block;
+    margin-left: 0.05em;
 }
 
 #banner:after {
@@ -47,7 +53,7 @@ a:hover, h4 a {
 }
 
 #banner .content header h2 {
-    font-size: 4em;
+    font-size: 3em;
     margin: 0;
     text-transform: uppercase;
     color: white;
@@ -591,15 +597,25 @@ table tbody tr:last-of-type {
     display: none;
 }
 
-@media screen and (max-width: 1000px) {
 
-    .mobile-hide {
+
+@media screen and (max-width: 1000px) and (min-width:600px) {
+
+    .medium-hide {
         display: none;
+    }
+
+    .medium-show {
+        display: block;
     }
 
 }
 
+
+
+
 @media screen and (max-width: 600px) {
+
 
     .mobile-img {
         max-width: 40%;
@@ -633,6 +649,10 @@ table tbody tr:last-of-type {
 
     .mobile-show {
         display: block;
+    }
+
+    .mobile-hide {
+        display: none;
     }
 
     .logo-container {
@@ -794,9 +814,9 @@ span.time, span.location {
         font-size: 1.5em;
     }
 
-    .mobile-hide {
-        display: none;
-    }
+    /*.mobile-hide {*/
+        /*display: none;*/
+    /*}*/
 }
 
 form {
