@@ -1042,3 +1042,9 @@ input[type="submit"].special:hover, input[type="reset"].special:hover, input[typ
     font-size:18px;
     font-weight: 600;
 }
+
+.svg-text-regular {
+    font-family: "Roboto", Helvetica, sans-serif;
+    font-size:12px;
+    font-weight: 400;
+}
