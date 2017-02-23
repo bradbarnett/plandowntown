@@ -1048,3 +1048,26 @@ input[type="submit"].special:hover, input[type="reset"].special:hover, input[typ
     font-size:12px;
     font-weight: 400;
 }
+
+.svg-text-semibold {
+    font-family: "Roboto", Helvetica, sans-serif;
+    font-size:12px;
+    font-weight: 500;
+}
+
+.main-logo {
+    vertical-align: middle;
+
+}
+
+.logo a {
+    border-bottom: none;
+}
+
+a img {
+    transition: all 0.25s;
+}
+
+a img:hover {
+    opacity: 0.7;
+}
