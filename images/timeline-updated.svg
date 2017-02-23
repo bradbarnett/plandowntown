@@ -10,7 +10,7 @@
 <rect x="244" y="-20.75" fill="none" width="166" height="21"/>
 <rect x="237" y="60.15" fill="none" width="148" height="21"/>
 <circle onclick="#svg-three" fill="#E2E2E2" stroke="#94BF3A" stroke-width="3" stroke-miterlimit="10" cx="199" cy="59.534" r="21"/>
-<text transform="matrix(1 0 0 1 24.0815 60.6387)" fill="#424242" font-family="'Roboto-Bold'" font-size="18">Late Spring 2017</text>
+<text transform="matrix(1 0 0 1 24.0815 60.6387)" fill="#424242" class="svg-text-bold">Late Spring 2017</text>
 <rect x="237" y="165.55" fill="none" width="177" height="21"/>
 <text transform="matrix(1 0 0 1 237 60.6387)" fill="#424242" font-family="'Roboto-Bold'" font-size="18">Vision Development</text>
 <circle onclick="#svg-four" fill="#E2E2E2" stroke="#0085CA" stroke-width="3" stroke-miterlimit="10" cx="199" cy="481.25" r="21"/>

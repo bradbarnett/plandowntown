@@ -674,7 +674,7 @@ table tbody tr:last-of-type {
     }
 
     table tr {
-        margin-bottom: 10px;
+        margin-bottom: 10vh;
         display: block;
         border-bottom: 2px solid #ddd;
     }
@@ -1035,4 +1035,10 @@ input[type="submit"]:hover, input[type="submit"]:active, input[type="reset"]:hov
 input[type="submit"].special:hover, input[type="reset"].special:hover, input[type="button"].special:hover, .button.special:hover {
     background-color: rgb(0, 104, 158);
     color: white;
+}
+
+.svg-text-bold {
+    font-family: "Roboto", Helvetica, sans-serif;
+    font-size:18px;
+    font-weight: 600;
 }
