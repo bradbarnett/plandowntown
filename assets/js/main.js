@@ -60,7 +60,7 @@
 				$(
 					'<div id="titleBar">' +
 						'<a href="#navPanel" class="toggle"></a>' +
-						'<span class="title">' + $('#logo').html() + '</span>' +
+						'<span class="title">' + "<img src='images/logos/plandowntown.png'>" + '</span>' +
 					'</div>'
 				)
 					.appendTo($body);

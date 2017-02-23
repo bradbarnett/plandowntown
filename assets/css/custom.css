@@ -38,6 +38,12 @@ a:hover, h4 a {
     margin-left: 0.05em;
 }
 
+#header nav {
+    position: absolute;
+    right: 1em;
+    top: 30%;
+}
+
 #banner:after {
     background-image: -moz-linear-gradient(top, rgba(23, 24, 32, 0.25), rgba(23, 24, 32, 0.25)), url("images/overlay.png");;
     background-image: -webkit-linear-gradient(top, rgba(23, 24, 32, 0.25), rgba(23, 24, 32, 0.25)), url("images/overlay.png");;
@@ -78,9 +84,52 @@ body.landing #header, #header {
     position: fixed;
 }
 
-/*section {*/
-/*min-height: 100vh;*/
-/*}*/
+#header {
+    background: rgba(39, 40, 51, 0.965);
+    box-shadow: 0 0 0.25em 0 rgba(0, 0, 0, 0.25);
+    cursor: default;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.unscrolled {
+    height: 5em;
+    /*line-height: 5em;*/
+    /*transition: all 0.5s;*/
+    font-size: 1.2em;
+}
+
+.scrolled {
+    height: 3.5em;
+    /*line-height: 3.5em;*/
+    transition: all 0.5s;
+    font-size: 1em;
+}
+
+.scrolled-logo {
+    background-image: url(../../images/logos/plandowntown.png);
+    background-size: contain;
+    transition: all 0.5s;
+    display: block;
+    height: 60%;
+    margin-top: 12px;
+    background-repeat: no-repeat;
+    margin-left: 10px;
+}
+
+.unscrolled-logo {
+    background-image: url(../../images/logos/PlanDowntown_Logo.png);
+    background-size: contain;
+    transition: all 0.5s;
+    display: block;
+    height: 80%;
+    margin-top: 8px;
+    background-repeat: no-repeat;
+    margin-left: 8px;
+}
 
 html, body {
     background-color: rgb(237, 237, 237);
@@ -597,9 +646,7 @@ table tbody tr:last-of-type {
     display: none;
 }
 
-
-
-@media screen and (max-width: 1000px) and (min-width:600px) {
+@media screen and (max-width: 1000px) and (min-width: 600px) {
 
     .medium-hide {
         display: none;
@@ -611,11 +658,7 @@ table tbody tr:last-of-type {
 
 }
 
-
-
-
 @media screen and (max-width: 600px) {
-
 
     .logo img.lower {
         max-width: 150px;
@@ -652,7 +695,7 @@ table tbody tr:last-of-type {
         display: block;
         padding: 0.35em 0.35em 0.35em 1.5em;
         background-color: #e0ded9;
-        margin-bottom:2vh;
+        margin-bottom: 2vh;
     }
 
     .about-card-mobile p {
@@ -696,7 +739,6 @@ table tbody tr:last-of-type {
         padding: 0.5em;
         background-color: whitesmoke;
     }
-
 
     table td {
         display: block;
@@ -838,7 +880,7 @@ span.time, span.location {
     }
 
     /*.mobile-hide {*/
-        /*display: none;*/
+    /*display: none;*/
     /*}*/
 }
 
@@ -1062,25 +1104,24 @@ input[type="submit"].special:hover, input[type="reset"].special:hover, input[typ
 
 .svg-text-bold {
     font-family: "Roboto", Helvetica, sans-serif;
-    font-size:18px;
+    font-size: 18px;
     font-weight: 600;
 }
 
 .svg-text-regular {
     font-family: "Roboto", Helvetica, sans-serif;
-    font-size:12px;
+    font-size: 12px;
     font-weight: 400;
 }
 
 .svg-text-semibold {
     font-family: "Roboto", Helvetica, sans-serif;
-    font-size:12px;
+    font-size: 12px;
     font-weight: 500;
 }
 
-.main-logo {
+span.title img {
     vertical-align: middle;
-
 }
 
 .logo a {
