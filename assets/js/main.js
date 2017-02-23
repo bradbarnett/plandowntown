@@ -92,8 +92,8 @@
 
 		// Parallax.
 		// Disabled on IE (choppy scrolling) and mobile platforms (poor performance).
-			if (skel.vars.browser == 'ie'
-			||	skel.vars.mobile) {
+		// 	if (skel.vars.browser == 'ie'
+		// 	||	skel.vars.mobile) {
 
 				$.fn._parallax = function() {
 
@@ -101,63 +101,63 @@
 
 				};
 
-			}
-			else {
-
-				$.fn._parallax = function() {
-
-					$(this).each(function() {
-
-						var $this = $(this),
-							on, off;
-
-						on = function() {
-
-							$this
-								.css('background-position', 'center 0px');
-
-							$window
-								.on('scroll._parallax', function() {
-
-									var pos = parseInt($window.scrollTop()) - parseInt($this.position().top);
-
-									$this.css('background-position', 'center ' + (pos * -0.15) + 'px');
-
-								});
-
-						};
-
-						off = function() {
-
-							$this
-								.css('background-position', '');
-
-							$window
-								.off('scroll._parallax');
-
-						};
-
-						skel.on('change', function() {
-
-							if (skel.breakpoint('medium').active)
-								(off)();
-							else
-								(on)();
-
-						});
-
-					});
-
-					return $(this);
-
-				};
-
-				$window
-					.on('load resize', function() {
-						$window.trigger('scroll');
-					});
-
-			}
+			// }
+			// else {
+            //
+			// 	$.fn._parallax = function() {
+            //
+			// 		$(this).each(function() {
+            //
+			// 			var $this = $(this),
+			// 				on, off;
+            //
+			// 			on = function() {
+            //
+			// 				$this
+			// 					.css('background-position', 'center 0px');
+            //
+			// 				$window
+			// 					.on('scroll._parallax', function() {
+            //
+			// 						var pos = parseInt($window.scrollTop()) - parseInt($this.position().top);
+            //
+			// 						$this.css('background-position', 'center ' + (pos * -0.15) + 'px');
+            //
+			// 					});
+            //
+			// 			};
+            //
+			// 			off = function() {
+            //
+			// 				$this
+			// 					.css('background-position', '');
+            //
+			// 				$window
+			// 					.off('scroll._parallax');
+            //
+			// 			};
+            //
+			// 			skel.on('change', function() {
+            //
+			// 				if (skel.breakpoint('medium').active)
+			// 					(off)();
+			// 				else
+			// 					(on)();
+            //
+			// 			});
+            //
+			// 		});
+            //
+			// 		return $(this);
+            //
+			// 	};
+            //
+			// 	$window
+			// 		.on('load resize', function() {
+			// 			$window.trigger('scroll');
+			// 		});
+            //
+			// }
 
 		// Spotlights.
 			var $spotlights = $('.spotlight');

@@ -617,6 +617,22 @@ table tbody tr:last-of-type {
 @media screen and (max-width: 600px) {
 
 
+    .logo img.lower {
+        max-width: 150px;
+        max-height: 120px;
+        position: relative;
+        top: 90%;
+        transform: translateY(0%);
+    }
+
+    .logo img.lower.lowest {
+        max-width: 150px;
+        max-height: 120px;
+        position: relative;
+        top: 70%;
+        transform: translateY(-70%);
+    }
+
     .mobile-img {
         max-width: 40%;
         vertical-align: -webkit-baseline-middle;
@@ -673,11 +689,14 @@ table tbody tr:last-of-type {
         display: none;
     }
 
-    table tr {
-        margin-bottom: 10vh;
+    table tr, table tbody tr:nth-child(2n + 1) {
+        margin-bottom: 3vh;
         display: block;
         border-bottom: 2px solid #ddd;
+        padding: 0.5em;
+        background-color: whitesmoke;
     }
+
 
     table td {
         display: block;
@@ -701,8 +720,9 @@ table tbody tr:last-of-type {
 .featured {
     background-color: rgb(0, 133, 202);
     padding-top: 1em;
-    padding-left: 1em;
+    padding-left: 2em;
     padding-right: 0em;
+    padding-bottom: 1em;
 }
 
 .featured * {
@@ -731,7 +751,10 @@ table tbody tr:last-of-type {
     margin-top: 5vh;
     background-color: whitesmoke;
     border: 1px solid lightgray;
-    padding: 1em;
+    padding-top: 1em;
+    padding-left: 2em;
+    padding-right: 0em;
+    padding-bottom: 1em;
 }
 
 .events * {
@@ -916,7 +939,7 @@ textarea {
 }
 
 select option {
-    background-color: #1c1d26;
+    background-color: transparent;
     color: black;
 }
 
@@ -1065,7 +1088,7 @@ input[type="submit"].special:hover, input[type="reset"].special:hover, input[typ
 }
 
 a img {
-    transition: all 0.25s;
+    transition: all 0.25
 }
 
 a img:hover {
