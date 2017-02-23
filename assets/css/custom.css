@@ -1094,3 +1094,7 @@ a img {
 a img:hover {
     opacity: 0.7;
 }
+
+.featured .top-align {
+    padding-left: 0.5em;
+}
