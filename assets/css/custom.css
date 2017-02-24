@@ -85,7 +85,7 @@ body.landing #header, #header {
 }
 
 #header {
-    background: rgba(39, 40, 51, 0.965);
+    background: rgba(255, 255, 255, 0.7);
     box-shadow: 0 0 0.25em 0 rgba(0, 0, 0, 0.25);
     cursor: default;
     left: 0;
@@ -106,7 +106,7 @@ body.landing #header, #header {
 .scrolled {
     height: 3.5em;
     /*line-height: 3.5em;*/
-    transition: all 0.  5s;
+    transition: all 0.5s;
     transition-timing-function: ease-in;
     font-size: 1em;
 }
@@ -1140,4 +1140,16 @@ a img:hover {
 
 .featured .top-align {
     padding-left: 0.5em;
+}
+
+.contact-details {
+    font-size: 1em;
+    display: inline-block;
+    background-color: white;
+    padding: 1em 1em 3em 1em;
+    border: 1px solid lightgray;
+}
+
+.contact-details span {
+    display: block;
 }

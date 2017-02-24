@@ -22,8 +22,8 @@
 <div id="page-wrapper">
 
     <!-- Header -->
-    <header id="header">
-        <h3 id="logo"><a href="index.html"><img class="main-logo" src="images/logos/plandowntown.png"></a></h3>
+    <header id="header" class="scrolled">
+        <a href="index.html"><div id="logo" class="scrolled-logo"></div></a>
         <nav id="nav">
             <ul>
                 <!--<li><a href="index.html">Home</a></li>-->
@@ -33,14 +33,14 @@
                 <li><a href="contact.html">Contact</a></li>
                 <!--<li><a href="#">Blog</a></li>-->
                 <!--<li><a href="#" class="button special">Blog</a></li>-->
-                <li><a href="http://www.facebook.com/visitdowntownhouston/" class="icon alt fa-facebook"></a></li>
-                <li><a href="http://twitter.com/DowntownHouston" class="icon alt fa-twitter"></a></li>
+                <li><a target="_blank" href="http://www.facebook.com/visitdowntownhouston/" class="icon alt fa-facebook"></a></li>
+                <li><a target="_blank" href="http://twitter.com/DowntownHouston" class="icon alt fa-twitter"></a></li>
             </ul>
         </nav>
     </header>
 
     <!-- Main -->
-    <div id="main" class="wrapper style1">
+    <div id="main" class="wrapper full-height style1">
         <div class="container">
             <header>
                 <h1>Contact</h1>
@@ -51,70 +51,75 @@
                         Questions? Comments? We'd love to hear from you.
                     </p>
                 </div>
-                <!--<div class="4u 6u(medium) 10u(small) text-align center">-->
-                <!--<h5>Media Inquiries: <a href="mailto:angie@plandowntownhou.com">angie@plandowntowmhou.com</a></h5>-->
-                <!--<h5>General Inquiries: <a href="mailto:lonnie@plandowntownhou.com">lonnie@plandowntowhou.org</a>-->
-                <!--</h5>-->
-                <!--</div>-->
-                <div class="6u center">
-                    <form method="post" action="#">
-                        <div class="row center uniform 50%">
-                            <div class="6u 12u$(xsmall)">
-                                <input type="text" name="name" id="name" value=""
-                                       placeholder="Your Name">
-                            </div>
-                            <div class="6u$ 12u$(xsmall)">
-                                <input type="text" name="email" id="email" value="" placeholder="Your Email">
-                            </div>
-                            <div class="12u$">
-                                <div class="select-wrapper">
-                                    <select name="category" id="category">
-                                        <option value="">- Choose Recipient -</option>
-                                        <option value="mailto:angie@downtowndistrict.org">Media Inquries:
-                                            angie@downtowndistrict.org
-                                        </option>
-                                        <option value="mailto:lonnie@downtowndistrict.org">General Inquiries:
-                                            lonnie@downtowndistrict.org
-                                        </option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="12u$ 12u$(xsmall)">
-                                <input type="text" name="subject" id="subject" value="" placeholder="Subject">
-                            </div>
-                            <!--<div class="4u 12u$(medium)">-->
-                            <!--<input type="radio" id="priority-low" name="priority" checked="">-->
-                            <!--<label for="priority-low">Low Priority</label>-->
-                            <!--</div>-->
-                            <!--<div class="4u 12u$(medium)">-->
-                            <!--<input type="radio" id="priority-normal" name="priority">-->
-                            <!--<label for="priority-normal">Normal Priority</label>-->
-                            <!--</div>-->
-                            <!--<div class="4u$ 12u$(medium)">-->
-                            <!--<input type="radio" id="priority-high" name="priority">-->
-                            <!--<label for="priority-high">High Priority</label>-->
-                            <!--</div>-->
-                            <!--<div class="6u 12u$(medium)">-->
-                            <!--<input type="checkbox" id="copy" name="copy">-->
-                            <!--<label for="copy">Email me a copy of this message</label>-->
-                            <!--</div>-->
-                            <!--<div class="6u$ 12u$(medium)">-->
-                            <!--<input type="checkbox" id="human" name="human" checked="">-->
-                            <!--<label for="human">I am a human and not a robot</label>-->
-                            <!--</div>-->
-                            <div class="12u$">
-                                <textarea name="message" id="message" placeholder="Enter your message"
-                                          rows="6"></textarea>
-                            </div>
-                            <div class="12u$">
-                                <ul class="actions">
-                                    <li><input type="submit" value="Send Message" class="special"></li>
-                                    <li><input type="reset" value="Reset"></li>
-                                </ul>
-                            </div>
+                <div class="8u 6u(medium) 10u(small) text-align  center">
+                    <div class="4u 12u(medium) contact-details margin-bottom"><h3>Media Inquiries</h3>
+                        <div><span>Angie Bertinot</span><a href="mailto:angie@downtowndistrict.org">angie@downtowndistrict.org</a>
                         </div>
-                    </form>
+                    </div>
+                    <div class="4u -1u 12u(medium) contact-details"><h3>General Inquiries</h3>
+                        <div><span>Lonnie Hoogeboom</span><a href="mailto:lonnie@downtowndistrict.org">lonnie@downtowndistrict.org</a>
+                        </div>
+                    </div>
                 </div>
+                <!--<div class="6u center">-->
+                <!--<form method="post" action="#">-->
+                <!--<div class="row center uniform 50%">-->
+                <!--<div class="6u 12u$(xsmall)">-->
+                <!--<input type="text" name="name" id="name" value=""-->
+                <!--placeholder="Your Name">-->
+                <!--</div>-->
+                <!--<div class="6u$ 12u$(xsmall)">-->
+                <!--<input type="text" name="email" id="email" value="" placeholder="Your Email">-->
+                <!--</div>-->
+                <!--<div class="12u$">-->
+                <!--<div class="select-wrapper">-->
+                <!--<select name="category" id="category">-->
+                <!--<option value="">- Choose Recipient -</option>-->
+                <!--<option value="mailto:angie@downtowndistrict.org">Media Inquries:-->
+                <!--angie@downtowndistrict.org-->
+                <!--</option>-->
+                <!--<option value="mailto:lonnie@downtowndistrict.org">General Inquiries:-->
+                <!--lonnie@downtowndistrict.org-->
+                <!--</option>-->
+                <!--</select>-->
+                <!--</div>-->
+                <!--</div>-->
+                <!--<div class="12u$ 12u$(xsmall)">-->
+                <!--<input type="text" name="subject" id="subject" value="" placeholder="Subject">-->
+                <!--</div>-->
+                <!--&lt;!&ndash;<div class="4u 12u$(medium)">&ndash;&gt;-->
+                <!--&lt;!&ndash;<input type="radio" id="priority-low" name="priority" checked="">&ndash;&gt;-->
+                <!--&lt;!&ndash;<label for="priority-low">Low Priority</label>&ndash;&gt;-->
+                <!--&lt;!&ndash;</div>&ndash;&gt;-->
+                <!--&lt;!&ndash;<div class="4u 12u$(medium)">&ndash;&gt;-->
+                <!--&lt;!&ndash;<input type="radio" id="priority-normal" name="priority">&ndash;&gt;-->
+                <!--&lt;!&ndash;<label for="priority-normal">Normal Priority</label>&ndash;&gt;-->
+                <!--&lt;!&ndash;</div>&ndash;&gt;-->
+                <!--&lt;!&ndash;<div class="4u$ 12u$(medium)">&ndash;&gt;-->
+                <!--&lt;!&ndash;<input type="radio" id="priority-high" name="priority">&ndash;&gt;-->
+                <!--&lt;!&ndash;<label for="priority-high">High Priority</label>&ndash;&gt;-->
+                <!--&lt;!&ndash;</div>&ndash;&gt;-->
+                <!--&lt;!&ndash;<div class="6u 12u$(medium)">&ndash;&gt;-->
+                <!--&lt;!&ndash;<input type="checkbox" id="copy" name="copy">&ndash;&gt;-->
+                <!--&lt;!&ndash;<label for="copy">Email me a copy of this message</label>&ndash;&gt;-->
+                <!--&lt;!&ndash;</div>&ndash;&gt;-->
+                <!--&lt;!&ndash;<div class="6u$ 12u$(medium)">&ndash;&gt;-->
+                <!--&lt;!&ndash;<input type="checkbox" id="human" name="human" checked="">&ndash;&gt;-->
+                <!--&lt;!&ndash;<label for="human">I am a human and not a robot</label>&ndash;&gt;-->
+                <!--&lt;!&ndash;</div>&ndash;&gt;-->
+                <!--<div class="12u$">-->
+                <!--<textarea name="message" id="message" placeholder="Enter your message"-->
+                <!--rows="6"></textarea>-->
+                <!--</div>-->
+                <!--<div class="12u$">-->
+                <!--<ul class="actions">-->
+                <!--<li><input type="submit" value="Send Message" class="special"></li>-->
+                <!--<li><input type="reset" value="Reset"></li>-->
+                <!--</ul>-->
+                <!--</div>-->
+                <!--</div>-->
+                <!--</form>-->
+                <!--</div>-->
             </div>
 
         </div>
