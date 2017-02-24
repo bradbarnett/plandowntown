@@ -99,13 +99,15 @@ body.landing #header, #header {
     height: 5em;
     /*line-height: 5em;*/
     /*transition: all 0.5s;*/
+    /*transition-timing-function: ease-in;*/
     font-size: 1.2em;
 }
 
 .scrolled {
     height: 3.5em;
     /*line-height: 3.5em;*/
-    transition: all 0.5s;
+    transition: all 0.  5s;
+    transition-timing-function: ease-in;
     font-size: 1em;
 }
 
