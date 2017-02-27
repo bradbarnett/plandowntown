@@ -48,10 +48,14 @@ $(document).ready(function () {
             scroll_start = $(this).scrollTop();
             if (scroll_start > offset.top) {
                 $("body.landing #header").removeClass("unscrolled").addClass("scrolled");
+                $("#logo").hide();
                 $("#logo").removeClass("unscrolled-logo").addClass("scrolled-logo");
+                $("#logo").show();
             } else {
                 $('body.landing #header').removeClass("scrolled").addClass("unscrolled");
+                $("#logo").hide();
                 $("#logo").removeClass("scrolled-logo").addClass("unscrolled-logo");
+                $("#logo").show();
 
             }
         });
